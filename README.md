@@ -1,11 +1,14 @@
 # Dande-Lenol
 
-Dande-Lenol est un projet open‑source visant à simplifier la gestion des données scientifiques. Il fournit des outils pour la collecte, le nettoyage et la visualisation de jeux de données, tout en assurant la traçabilité et la reproductibilité des analyses.
+**Dande-Lenol** est un projet logiciel en Python visant à fournir des outils modulaires et évolutifs pour le traitement de données et l'automatisation. Le dépôt contient la structure de base, la configuration et les tests nécessaires au développement rapide de fonctionnalités supplémentaires.
 
-## Principales fonctionnalités
-- Importation flexible de sources de données variées
-- Pipelines de nettoyage automatisés
-- Visualisations interactives prêtes à l'emploi
-- Gestion des métadonnées et versionnage
+## Installation rapide
+```bash
+git clone https://github.com/your-username/Dande-Lenol.git
+cd Dande-Lenol
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-Contribuez, explorez et améliorez la recherche scientifique avec Dande‑Lenol !
+*Auteur : Caye Saikou*
