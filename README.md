@@ -1,24 +1,12 @@
 # Dande-Lenol
 
-**Dande-Lenol** ("La Voix du Peuple") est un projet Python visant à fournir une plateforme modulaire pour le traitement de données et l'automatisation de tâches. Le but est de créer une base de code claire, extensible et facilement maintenable, adaptée à divers cas d'usage.
+Dande-Lenol est un projet open‑source visant à simplifier la gestion des données scientifiques. Il propose des outils intuitifs pour l'import, la transformation et la visualisation des jeux de données, le tout dans une interface web ergonomique. Le projet est construit en Python, utilise Flask pour le backend et React pour le frontend, et est extensible grâce à un système de plugins.
 
 ## Fonctionnalités principales
-- Architecture modulaire et extensible.
-- Gestion centralisée de la configuration.
-- Prêt pour l'intégration d'APIs et de services externes.
+- Importation de multiples formats de données (CSV, JSON, Excel)
+- Pipeline de transformation configurable
+- Visualisations interactives (graphes, cartes, tableaux)
+- Authentification sécurisée et gestion des utilisateurs
+- Extensibilité via des plugins personnalisés
 
-## Installation rapide
-```bash
-# Cloner le dépôt
-git clone https://github.com/$(whoami)/Dande-Lenol.git
-cd Dande-Lenol
-# Créer un environnement virtuel
-python3 -m venv venv
-source venv/bin/activate
-# Installer les dépendances
-pip install -r requirements.txt
-```
-
----
-
-*Auteur : Caye Saikou*
+Contribuez, testez, et améliorez Dande-Lenol pour soutenir la communauté scientifique !
